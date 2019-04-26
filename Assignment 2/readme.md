@@ -29,3 +29,6 @@ https://codelabs-preview.appspot.com/?file_id=1DIvamrtWs6-WfzTs965idbZ8c593eZnDb
 
 ## Docker hub link:
 https://hub.docker.com/r/dawn14/assignment1
+
+## Youtube Link:
+https://www.youtube.com/watch?v=XZkhJPPCtJg&feature=youtu.be
