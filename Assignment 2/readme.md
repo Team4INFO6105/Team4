@@ -20,3 +20,12 @@ Gathered and formed a single dataset of 100 fintech keywords
 
 ### PART 5 BUILT A PIPELINE AND AUTOMATED THE PROCESS
 • Built the pipeline in Airflow • Dockerized the pipeline and tested it. • Publish the Docker image to Dockerhub
+
+## Datafile:
+https://drive.google.com/file/d/1qXjBoKInQ_O3VPaWDYuJwPNorv2lnq51/view?usp=sharing
+
+## Claat Report:
+https://codelabs-preview.appspot.com/?file_id=1DIvamrtWs6-WfzTs965idbZ8c593eZnDbKF46ML_2Pg#11
+
+## Docker hub link:
+https://hub.docker.com/r/dawn14/assignment1
