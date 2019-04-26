@@ -3,6 +3,7 @@ http://infinite-depths-56714.herokuapp.com/
 
 # Dataset :
 For the purpose of this exercise, we will build models using these datasets: • https://raw.githubusercontent.com/rasbt/musicmood/master/dataset/training/train_lyrics_1000.csv • https://github.com/rasbt/musicmood/blob/master/dataset/validation/valid_lyrics_200.csv
+
 This repository contains end-to-end tutorial-like code samples to help solve text classification problems using machine learning.
 
 # Prerequisites:
