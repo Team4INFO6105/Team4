@@ -53,7 +53,7 @@ We have one module for each step in the text classification workflow.
 + The jupyter notebooks are actually an another representation of the pipelined code:
 + For pipelining, we have used Luigi package
 + Documentation: https://luigi.readthedocs.io/en/stable/
-+ Luigi folder has three 
++ Pipeline folder has four files:
 
    *datacleaning.py*  
 + This file has necessary user defined functions to load and clean the data. It outputs the cleaned data in the form of csv files.
@@ -61,6 +61,13 @@ We have one module for each step in the text classification workflow.
    *featureengineering.py* 
 + This file has all the nessecary functions to preprocess the data before it could be passed to the model i.e. generating new features,    creating train and test data sets, etc.
 + The input to this file is the output of datacleaning.py file
+
+   *buildmodel.py*  
++ This is the final file containing the final tasks required to generated the model in an external pickle file. The input to this model   is the output of featureengineering.py file. The pickle file would be further used by our Flask web application.
+
+   *run_luigi.py* 
++ This file is the main file which controls the execution of above three files.
+
 
 
 # CLAAT Document : 
